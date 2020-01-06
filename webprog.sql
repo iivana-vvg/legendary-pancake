@@ -356,7 +356,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`user_id`, `user_firstname`, `user_lastname`, `user_picture`, `user_name`, `user_pass`, `user_email`, `user_country`, `user_date`, `user_archive`) VALUES
+INSERT INTO `users` (`id`, `firstname`, `lastname`, `picture`, `name`, `pass`, `email`, `country`, `date`, `archive`) VALUES
 (3, 'Pero', 'Peric', 'user.jpg', 'pperic', '21232f297a57a5a743894a0e4a801fc3', 'pero.peric@vvg.hr', 'HR', '2020-01-06 14:20:18', 'N'),
 (5, 'Alen', 'Simec', 'user.jpg', 'asimec1', '$2y$12$MvEg.TeRkTn9zUUwc0ALyux..9cI5IXSukNi/V3qtyk3wy3DMxbW6', 'alen@eburza.hr', 'HR', '2020-01-06 23:00:00', 'N'),
 (9, 'admin', 'admin', 'user.jpg', 'admin', '$2y$12$0xxPscN76GGGWdLfI/5yhOFxYmgsHZQ5Ee3LOkdsZwTr/r6vS53w6', 'admin@vvg.hr', 'HR', '2020-01-06 16:28:24', 'N'),
