@@ -340,16 +340,16 @@ INSERT INTO `hotels` (`id`, `title`, `description`, `date`, `picture`, `archive`
 --
 
 CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
-  `user_firstname` varchar(255) NOT NULL,
-  `user_lastname` varchar(255) NOT NULL,
-  `user_picture` varchar(255) NOT NULL,
-  `user_name` varchar(255) NOT NULL,
-  `user_pass` varchar(255) NOT NULL,
-  `user_email` varchar(255) NOT NULL,
-  `user_country` char(2) NOT NULL,
-  `user_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `user_archive` enum('Y','N') NOT NULL DEFAULT 'Y'
+  `id` int(11) NOT NULL,
+  `firstname` varchar(255) NOT NULL,
+  `lastname` varchar(255) NOT NULL,
+  `picture` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `pass` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `country` char(2) NOT NULL,
+  `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `archive` enum('Y','N') NOT NULL DEFAULT 'Y'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -357,10 +357,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_firstname`, `user_lastname`, `user_picture`, `user_name`, `user_pass`, `user_email`, `user_country`, `user_date`, `user_archive`) VALUES
-(3, 'Pero', 'Peric', 'user.jpg', 'pperic', '21232f297a57a5a743894a0e4a801fc3', 'pero.peric@vvg.hr', 'HR', '2020-01-06 14:20:18', 'Y'),
-(5, 'Alen', 'Simec', 'user.jpg', 'asimec1', '$2y$12$MvEg.TeRkTn9zUUwc0ALyux..9cI5IXSukNi/V3qtyk3wy3DMxbW6', 'alen@eburza.hr', 'HR', '2020-01-06 23:00:00', 'Y'),
+(3, 'Pero', 'Peric', 'user.jpg', 'pperic', '21232f297a57a5a743894a0e4a801fc3', 'pero.peric@vvg.hr', 'HR', '2020-01-06 14:20:18', 'N'),
+(5, 'Alen', 'Simec', 'user.jpg', 'asimec1', '$2y$12$MvEg.TeRkTn9zUUwc0ALyux..9cI5IXSukNi/V3qtyk3wy3DMxbW6', 'alen@eburza.hr', 'HR', '2020-01-06 23:00:00', 'N'),
 (9, 'admin', 'admin', 'user.jpg', 'admin', '$2y$12$0xxPscN76GGGWdLfI/5yhOFxYmgsHZQ5Ee3LOkdsZwTr/r6vS53w6', 'admin@vvg.hr', 'HR', '2020-01-06 16:28:24', 'N'),
-(14, 'Ivana', 'Ivkovic', 'iivkovic.jpg', 'iivana', '$2y$12$MvEg.TeRkTn9zUUwc0ALyux..9cI5IXSukNi/V3qtyk3wy3DMxbW6', 'iivkov1@vvg.hr', 'HR', '2020-01-05 17:04:32', 'Y');
+(14, 'Ivana', 'Ivkovic', 'iivkovic.jpg', 'iivana', '$2y$12$MvEg.TeRkTn9zUUwc0ALyux..9cI5IXSukNi/V3qtyk3wy3DMxbW6', 'iivkov1@vvg.hr', 'HR', '2020-01-05 17:04:32', 'N');
 
 --
 -- Indexes for dumped tables
