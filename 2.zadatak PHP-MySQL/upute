@@ -1,3 +1,6 @@
 
 4. zadatak je zadnja verzija projekta koja je predana na gaudeamusu
 baza je u file-u webprog.sql
+na tabu registracija bi se trebalo registrirati pa zatim na sign in kako bi ušli u adminsko sučelje
+Baza mora biti podignuta kako bi se povukli podaci za usere i apartments podatke, te naravno za admin sučelje
+Slike galerije bi trebale biti kao na fotki u img folderu
