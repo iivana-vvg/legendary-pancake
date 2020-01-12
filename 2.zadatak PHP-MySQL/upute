@@ -8,7 +8,7 @@ Slike galerije bi trebale biti kao na fotki u img folderu
 
 Napomena:
 -xampp treba biti instaliran i pokrenut
--u datoteci xampp/htdocs/webprog (webprog je naziv datoteke)
+-u datoteci xampp\htdocs\   treba staviti datoteku webprog preuzetu sa gaudeamusa
 url za pristupanje http://localhost/webprog/
 podignuta baza na http://localhost/phpmyadmin/db_structure.php?server=1&db=webprog
 registracija: http://localhost/webprog/index.php?menu=7
