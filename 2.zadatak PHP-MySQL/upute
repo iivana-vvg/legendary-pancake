@@ -4,3 +4,15 @@ baza je u file-u webprog.sql
 na tabu registracija bi se trebalo registrirati pa zatim na sign in kako bi ušli u adminsko sučelje
 Baza mora biti podignuta kako bi se povukli podaci za usere i apartments podatke, te naravno za admin sučelje
 Slike galerije bi trebale biti kao na fotki u img folderu
+
+
+Napomena:
+-xampp treba biti instaliran i pokrenut
+-u datoteci xampp/htdocs/webprog (webprog je naziv datoteke)
+url za pristupanje http://localhost/webprog/
+podignuta baza na http://localhost/phpmyadmin/db_structure.php?server=1&db=webprog
+registracija: http://localhost/webprog/index.php?menu=7
+prijava: http://localhost/webprog/index.php?menu=8
+admn: user:marko7 lozinka:admin
+Kako bi novom korisniku dali admin prava ide se na uređivanje (ikona olovka) te se pod Archive: stavi No.
+Spremi i logout i prijavite se pod nazivom i lozinkom novog dodanog korisnika.
