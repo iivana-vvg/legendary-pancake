@@ -13,6 +13,8 @@ url za pristupanje http://localhost/webprog/
 podignuta baza na http://localhost/phpmyadmin/db_structure.php?server=1&db=webprog
 registracija: http://localhost/webprog/index.php?menu=7
 prijava: http://localhost/webprog/index.php?menu=8
-admn: user:marko7 lozinka:admin
+
+*********admn: user:marko7 lozinka:admin***********
+
 Kako bi novom korisniku dali admin prava ide se na uređivanje (ikona olovka) te se pod Archive: stavi No.
 Spremi i logout i prijavite se pod nazivom i lozinkom novog dodanog korisnika.
