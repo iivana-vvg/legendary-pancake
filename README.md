@@ -1,1 +1,2 @@
 # legendary-pancake
+UPUTE ZA PHP SEMINARSKI RAD SU U DRUGOM FOLDERU
