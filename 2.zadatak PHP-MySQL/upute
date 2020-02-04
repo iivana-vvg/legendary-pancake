@@ -1,5 +1,8 @@
 
-4. zadatak je zadnja verzija projekta koja je predana na gaudeamusu
+4. zadatak je zadnja verzija PHP projekta koja je predana na gaudeamusu (2.zadatak) 
+Zadnji zadatak u prvom folderu za HTML je zadnja verzija html zadatka (1.zadatak)
+
+2.zadatak-PHP
 baza je u file-u webprog.sql
 na tabu registracija bi se trebalo registrirati pa zatim na sign in kako bi ušli u adminsko sučelje
 Baza mora biti podignuta kako bi se povukli podaci za usere i apartments podatke, te naravno za admin sučelje
